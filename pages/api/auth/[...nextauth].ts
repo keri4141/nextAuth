@@ -47,10 +47,10 @@ export default NextAuth({
     //   // @ts-ignore
     //   scope: "read:user",
     // }),
-    // GoogleProvider({
-    //   clientId: process.env.GOOGLE_ID,
-    //   clientSecret: process.env.GOOGLE_SECRET,
-    // }),
+    GoogleProvider({
+      clientId: process.env.GOOGLE_ID,
+      clientSecret: process.env.GOOGLE_SECRET,
+    }),
     // TwitterProvider({
     //   clientId: process.env.TWITTER_ID,
     //   clientSecret: process.env.TWITTER_SECRET,
