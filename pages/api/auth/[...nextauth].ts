@@ -15,7 +15,7 @@ const prisma = new PrismaClient()
 // https://next-auth.js.org/configuration/options
 export default NextAuth({
   // https://next-auth.js.org/configuration/providers
-  adapter: PrismaAdapter(prisma),
+  // adapter: PrismaAdapter(prisma),
   providers: [
     // EmailProvider({
     //   server: process.env.EMAIL_SERVER,
